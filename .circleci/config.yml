@@ -39,7 +39,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD
         environment:
           POSTGRES_USER: circleci-demo-ruby
-          POSTGRES_DB: <%= Rails.configuration.database_configuration["test"]["database"] %>
+          POSTGRES_DB: Flakyness1_test
           POSTGRES_PASSWORD: ""
 
     environment:
