@@ -81,3 +81,5 @@ gem "dotenv-rails", "~> 2.8", :groups => [:development, :test]
 
 gem "simplecov-rcov", "~> 0.3.1", :group => :test
 gem "launchy", "~> 2.5", :group => :test
+
+gem "rspec_junit_formatter", "~> 0.6.0"
